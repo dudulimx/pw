@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: #ffb926;
+  }
+  .container {
+    background-color: #db6f02;
+    width: min(90%, 500px);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 4em 2em;
+    border-radius: 0.5em;
+  }
+  button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .section-container {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+  }
+  .btn {
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    background-color: #8f4100;
+    color: #000000;
+  }
+  .btn-pomodoro {
+    background-color: #f2b139;
+    color: #ffffff;
+  }
+  .tempo-btn-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+  }
+  #tempo {
+    text-align: center;
+    color: #ffcf67;
+    font-size: 5em;
+    font-weight: 600;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+  }
+  #btn-iniciar,
+  #btn-pausar {
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    background-color: #ffcf67;
+  }
+  #btn-resetar {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #ffcf67;
+    font-size: 2em;
+  }
+  .oculto {
+    display: none;
+  }
+  .mostrar {
+    display: block;
+  }

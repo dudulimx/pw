@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomo de Ouro</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="section-container">
+        <button id="pomodoro" class="btn btn-timer btn-pomodoro">Pomodoro</button>
+        <button id="intvcurto" class="btn btn-intvcurto">Intervalo Curto</button>
+        <button id="intvlongo" class="btn btn-intvlongo">Intervalo Longo</button>
+      </div>
+      <div class="tempo-btn-container">
+        <span id="tempo"></span>
+        <div class="btn-container">
+          <button id="btn-iniciar" class="mostrar">Iniciar</button>
+          <button id="btn-pausar" class="oculto">Pausar</button>
+          <button id="btn-resetar" class="oculto">
+            <i class="fa-solid fa-rotate-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
